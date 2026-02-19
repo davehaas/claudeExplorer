@@ -20,6 +20,7 @@
 		A100000011 /* MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000011; };
 		A100000012 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000012; };
 		A100000013 /* ConversationExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000013; };
+		A100000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000014; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B100000011 /* MemoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesView.swift; sourceTree = "<group>"; };
 		B100000012 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		B100000013 /* ConversationExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationExporter.swift; sourceTree = "<group>"; };
+		B100000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C100000001 /* ClaudeExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D100000001 /* ClaudeExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudeExplorer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				B100000011 /* MemoriesView.swift */,
 				B100000012 /* ProjectDetailView.swift */,
 				B100000013 /* ConversationExporter.swift */,
+				B100000014 /* Assets.xcassets */,
 			);
 			path = ClaudeExplorer;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A100000014 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
