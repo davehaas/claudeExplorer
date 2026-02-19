@@ -16,6 +16,7 @@ xcuserdata/
 exports/
 
 # Claude Code worktree artifacts
+.claude/
 ClaudeExplorer_empty/
 
 # Temporary files
