@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+build/
+DerivedData/
+*.xcuserdata/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Export data (user-specific, potentially sensitive)
+exports/
+
+# Claude Code worktree artifacts
+ClaudeExplorer_empty/
+
+# Temporary files
+tmp/

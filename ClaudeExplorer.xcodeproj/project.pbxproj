@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000001 /* ClaudeExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000001; };
+		A100000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000002; };
+		A100000003 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000003; };
+		A100000004 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000004; };
+		A100000005 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000005; };
+		A100000006 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000006; };
+		A100000007 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000007; };
+		A100000008 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000008; };
+		A100000009 /* ConversationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000009; };
+		A100000010 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000010; };
+		A100000011 /* MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000011; };
+		A100000012 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000012; };
+		A100000013 /* ConversationExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000013; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B100000001 /* ClaudeExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeExplorerApp.swift; sourceTree = "<group>"; };
+		B100000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B100000003 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		B100000004 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		B100000005 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B100000006 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B100000007 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B100000008 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B100000009 /* ConversationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationDetailView.swift; sourceTree = "<group>"; };
+		B100000010 /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
+		B100000011 /* MemoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesView.swift; sourceTree = "<group>"; };
+		B100000012 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		B100000013 /* ConversationExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationExporter.swift; sourceTree = "<group>"; };
+		C100000001 /* ClaudeExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D100000001 /* ClaudeExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudeExplorer.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F100000001 = {
+			isa = PBXGroup;
+			children = (
+				F100000002 /* ClaudeExplorer */,
+				F100000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F100000002 /* ClaudeExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				D100000001 /* ClaudeExplorer.entitlements */,
+				B100000001 /* ClaudeExplorerApp.swift */,
+				B100000002 /* Models.swift */,
+				B100000003 /* DataLoader.swift */,
+				B100000004 /* BookmarkManager.swift */,
+				B100000005 /* AppState.swift */,
+				B100000006 /* WelcomeView.swift */,
+				B100000007 /* SidebarView.swift */,
+				B100000008 /* MainView.swift */,
+				B100000009 /* ConversationDetailView.swift */,
+				B100000010 /* MarkdownText.swift */,
+				B100000011 /* MemoriesView.swift */,
+				B100000012 /* ProjectDetailView.swift */,
+				B100000013 /* ConversationExporter.swift */,
+			);
+			path = ClaudeExplorer;
+			sourceTree = "<group>";
+		};
+		F100000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C100000001 /* ClaudeExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		G100000001 /* ClaudeExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H100000003 /* Build configuration list for PBXNativeTarget "ClaudeExplorer" */;
+			buildPhases = (
+				G100000002 /* Sources */,
+				E100000001 /* Frameworks */,
+				G100000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaudeExplorer;
+			productName = ClaudeExplorer;
+			productReference = C100000001 /* ClaudeExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		G100000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = H100000001 /* Build configuration list for PBXProject "ClaudeExplorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F100000001;
+			productRefGroup = F100000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				G100000001 /* ClaudeExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		G100000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G100000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001 /* ClaudeExplorerApp.swift in Sources */,
+				A100000002 /* Models.swift in Sources */,
+				A100000003 /* DataLoader.swift in Sources */,
+				A100000004 /* BookmarkManager.swift in Sources */,
+				A100000005 /* AppState.swift in Sources */,
+				A100000006 /* WelcomeView.swift in Sources */,
+				A100000007 /* SidebarView.swift in Sources */,
+				A100000008 /* MainView.swift in Sources */,
+				A100000009 /* ConversationDetailView.swift in Sources */,
+				A100000010 /* MarkdownText.swift in Sources */,
+				A100000011 /* MemoriesView.swift in Sources */,
+				A100000012 /* ProjectDetailView.swift in Sources */,
+				A100000013 /* ConversationExporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		H100000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		H100000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		H100000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClaudeExplorer/ClaudeExplorer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeexplorer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		H100000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClaudeExplorer/ClaudeExplorer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeexplorer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H100000001 /* Build configuration list for PBXProject "ClaudeExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H100000004 /* Debug */,
+				H100000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H100000003 /* Build configuration list for PBXNativeTarget "ClaudeExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H100000006 /* Debug */,
+				H100000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = G100000004 /* Project object */;
+}
